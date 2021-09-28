@@ -4,28 +4,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='header'>
-        <img className='image' src='images/lep.png' alt="" />
-      </div>
       <div className="box">
         <ul className="minbox" >
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox1.jpg")`,
           }}></li>
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox2.jpg")`,
           }}></li>
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox3.jpg")`,
           }}></li>
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox4.jpg")`,
           }}></li>
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox5.jpg")`,
           }}></li>
           <li style={{
-            backgroundImage: `url("images/minbox.jpg")`,
+            backgroundImage: `url("images/minbox6.jpg")`,
           }}></li>
         </ul>
         <ol className="maxbox">
@@ -49,7 +46,6 @@ function App() {
           }}></li>
         </ol>
       </div>
-      <img className='image1' src='images/heart.png' />
     </div>
   );
 }

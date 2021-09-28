@@ -1,31 +1,18 @@
-*{
-  box-sizing: border-box;
+body{
+  background-color: turquoise;
+  background-image:url('./heart.png');
+  background-size:400px;
+  background-position:center 20%;
+  background-repeat :no-repeat;
 }
 .App {
   height: 680px;
   background-size: 100%;
   -webkit-perspective: 800;
-  background-color: turquoise;
   text-align: center;
 }
-.image1{
-  width: 100px;
-  height: 100px;
-}
-
 li {
   list-style: none;
-}
-.header{
-  margin:30px auto;
-  text-align: center;
-}
-.image{
-  width: 200px;
-  height: 100px;
-}
-.icon{
-  color:dodgerblue;
 }
 .box {
   width: 250px;
